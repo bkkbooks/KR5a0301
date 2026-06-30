@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0301/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0301/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 秤星靈臺祕要經
+  date: '2015-08-28 23:44:33.880255'
+  source:
+    repository: kanripo
+    path: KR5a0301
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0301_000-HFL.yaml, hash: 'sha256:9264324dc7fb6b818b3bd702347cb63bcc486dfa004a11f5167dad346fa81d60'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0301_000-HFL.markers.yaml, hash: 'sha256:3d0c03e7170cce1e8f2375b358ba6a59642abf7fa6dd4ac4fed25befec381bc9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0301_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2076
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4b96f358fd4044d2be2131abad5c2e2d5d69989d339112c273ac50a82b2d7264

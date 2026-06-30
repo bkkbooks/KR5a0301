@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0301/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0301/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 秤星靈臺祕要經
+  date: '2015-08-28 23:44:33.880255'
+  source:
+    repository: kanripo
+    path: KR5a0301
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0301_000-ZTDZ.yaml, hash: 'sha256:babad7b1cc2db074d20ebb0649547ccbce35794691386d487f86e1501549571f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0301_000-ZTDZ.markers.yaml, hash: 'sha256:74862ee32a76edd938ab2e5c0d2a044a16ca4162aa532c73a8c10425c75bebce'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0301_SJB_000-050029c
+    span:
+    - body
+    - 0
+    - 2076
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4f184ae62f77e841907f7546c28540fac66d12fe6fe7599a3f7846296a8641c6
